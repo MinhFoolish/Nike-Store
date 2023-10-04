@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav id="navBar">
+      <div class="navTop">
+        <div class="navItem"> <!-- Thành phần chứa logo trang web. -->
+          <img src="./img/sneakers.png" alt="Sneaker image">
+        </div>
+        <div class="navItem">
+          <!-- Thành phần chứa phần thanh tìm kiếm sản phẩm, bao gồm input, search icon. -->
+          <div class="search">
+            <input type="text" placeholder="Search..." class="searchInput">
+            <img src="./img/search.png" alt="Search icon" class="searchIcon"
+              width="20" height="20">
+          </div>
+        </div>
+        <div class="navItem">
+          <span class="limitedOffer">Limited Offer</span>
+        </div>
+      </div>
+      <hr>
+      <div class="navBottom">
+        <div class="menuItem">AIR FORCE</div>
+        <div class="menuItem">JORDAN</div>
+        <div class="menuItem">BLAZER</div>
+        <div class="menuItem">CRATER</div>
+        <div class="menuItem">HIPPIE</div>
+      </div>
+    </nav>
+    <section id="slider">
+      <div class="sliderWrapper">
+        <div class="sliderItem">
+          <img src="./img/air.png" alt="" class="sliderImg">
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">AIR FORCE </br> NEW </br> SEASON</h1>
+          <h2 class="sliderPrice">$119</h2>
+          <a href="#products">
+            <button class="buyButton btn btn-lg btn-outline-warning">BUY NOW!</button>
+          </a>
+        </div>
+        <div class="sliderItem">
+          <img src="./img/jordan.png" alt="" class="sliderImg">
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">JORDAN</br>  NEW </br> SEASON</h1>
+          <h2 class="sliderPrice">$119</h2>
+          <a href="#products">
+            <button class="buyButton btn btn-lg btn-outline-warning">BUY NOW!</button>
+          </a>
+        </div>
+        <div class="sliderItem">
+          <img src="./img/blazer.png" alt="" class="sliderImg">
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">BLAZER</br> NEW </br> SEASON</h1>
+          <h2 class="sliderPrice">$119</h2>
+          <a href="#products">
+            <button class="buyButton btn btn-lg btn-outline-warning">BUY NOW!</button>
+          </a>
+        </div>
+        <div class="sliderItem">
+          <img src="./img/crater.png" alt="" class="sliderImg">
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">CRATER </br> NEW </br> SEASON</h1>
+          <h2 class="sliderPrice">$119</h2>
+          <a href="#products">
+            <button class="buyButton btn btn-lg btn-outline-danger">BUY NOW!</button>
+          </a>
+        </div>
+        <div class="sliderItem">
+          <img src="./img/hippie.png" alt="" class="sliderImg">
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">HIPPIE</br> NEW </br> SEASON</h1>
+          <h2 class="sliderPrice">$119</h2>
+          <a href="#products">
+            <button class="buyButton btn btn-lg btn-outline-warning">BUY NOW!</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="feature">
+        <img class="featureImg" src="./img/shipping.png" alt="Shipping image">
+        <span class="featureTitle">FREE SHIPPING</span>
+        <div class="featureDesc">Free worldwire shipping on all orders.</div>
+      </div>
+      <div class="feature">
+        <img class="featureImg" src="./img/return.png" alt="Shipping image">
+        <span class="featureTitle">30 DAYS RETURN</span>
+        <div class="featureDesc">No question return and easy refund in 14 days.</div>
+      </div>
+      <div class="feature">
+        <img class="featureImg" src="./img/gift.png" alt="Shipping image">
+        <span class="featureTitle">GIFT CARDS</span>
+        <div class="featureDesc">Buy gift cards and use coupon codes easily.</div>
+      </div>
+      <div class="feature">
+        <img class="featureImg" src="./img/contact.png" alt="Shipping image">
+        <span class="featureTitle">CONTACT US</span>
+        <div class="featureDesc">Keep in touch via email and supports system.</div>
+      </div>
+    </section>
+
+    <section id="products">
+      <div class="product">
+        <div class="productImg">
+          <img class="image" src="./img/air.png" alt="">
+        </div>
+        <div class="productName">
+          <p class="content">Air Force</p>
+        </div>
+        <div class="productPrice">$199</div>
+        <div class="productDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, dolore id culpa provident quo unde asperiores minus reprehenderit ipsam omnis.</div>
+        <div class="productColors">
+          <div class="color" id="black"></div>
+          <div class="color"  id="darkblue"></div>
+        </div>
+        <div class="productSizes">
+          <button type="button" class="btn btn-outline-light">42</button>
+          <button type="button" class="btn btn-outline-light">43</button>
+          <button type="button" class="btn btn-outline-light">44</button>
+          <div class="productBuyButton">
+            <button type="button" class="BuyButton btn btn-lg btn-outline-light">Buy Now!</button>
+          </div>
+        </div>
+      </div>
+      <div class="payment">
+        <div class="header">
+          <h1 class="payTitle">Personal Information</h1>
+          <button class="close">X</button>
+        </div>
+        <label for="">Full Name</label>
+        <input type="text" placeholder="Mai Van Minh">
+        <hr>
+        <label for="">Phone Number</label>
+        <input type="text" placeholder="+84 ">
+        <hr>
+        <label for="">Address</label>
+        <input type="text" placeholder="542 W. 15th Street">
+        <h1 class="payTitle">Card Information</h1>
+        <div class="cardIcons">
+          <img src="./img/visa.png" class="cardIcon" width="40">
+          <img src="./img/master.png" class="cardIcon" width="40">
+        </div>
+        <input type="password" class="payInput" placeholder="Card Number">
+        <div class="cardInfor">
+          <input type="text" placeholder="mm" class="payInput sm">
+          <input type="text" placeholder="yyyy" class="payInput sv">
+          <input type="text" placeholder="CVV" class="payInput sm">
+          <button class="payButton">Checkout!</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="bg-body-secondary">
+      <div class="container">
+        <div class="galleryItem">
+          <h1 class="galleryTitle">Be Yourself!</h1>
+          <img class="galleryImg" src="./img/gallery-5.jpg" alt="Gallery image">
+        </div>
+        <div class="galleryItem">
+          <h1 class="galleryTitle">This Is The First Day of Your New Life!</h1>
+          <img class="galleryImg" src="./img/gallery-6.jpg" alt="Gallery image">
+        </div>
+        <div class="galleryItem">
+          <h1 class="galleryTitle">Just Do It!</h1>
+          <img class="galleryImg" src="./img/gallery-7.jpg" alt="Gallery image">
+        </div>
+      </div>
+    </section>
+    <section class="newSeason">
+      <div class="newSeasonItem">
+        <img src="./img/gallery-12.jpg" alt="" class="nsImg">
+      </div>
+      <div class="newSeasonItem">
+        <h3 class="nsItemSm">WINTER NEW ARRIVALS</h3>
+        <h1>NEW SEASON</h1>
+        <h1>NEW COLLECTION</h1>
+        <a href="#navBar">
+          <button class="nsButton btn btn-outline-info">CHOOSE YOUR STYLE</button>
+        </a>
+      </div>
+      <div class="newSeasonItem">
+        <img src="./img/gallery-14.jpg" alt="" class="nsImg">
+      </div>
+    </section>
+    <section id="footer" class="background-gradient-animation">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-lg-7 left-footer">
+            <div class="content">
+              <h3>ABOUT NIKE</h3>
+              <ul>
+                <li><a href="https://nike.com">Company</a></li>
+                <li><a href="https://www.nike.com/vn/help/#contact">Contact Us</a></li>
+                <li><a href="https://jobs.nike.com/">Careers</a></li>
+                <li><a href="https://investors.nike.com/Home/default.aspx">Investor</a></li>
+                <li><a href="https://www.nike.com/vn/sustainability">Sustainability</a></li>
+              </ul>
+            </div>
+            <div class="content">
+              <h3>GET HELP</h3>
+              <ul>
+                <li><a href="https://www.nike.com/orders/details/">Order status</a></li>
+                <li><a href="https://www.nike.com/vn/help/a/shipping-delivery-gs">Delivery</a></li>
+                <li><a href="https://www.nike.com/vn/help/a/returns-policy-gs">Returns</a></li>
+                <li><a href="https://www.nike.com/vn/help/a/payment-options-gs">Payment Options</a></li>
+                <li><a href="#features">Stories</a></li>
+              </ul>
+            </div>
+            <div class="content">
+              <h3>Products</h3>
+              <ul>
+                <li><a class="footerLink" href="#slider">Air Force</a></li>
+                <li><a class="footerLink" href="#slider">Jordan</a></li>
+                <li><a class="footerLink" href="#slider">Blazer</a></li>
+                <li><a class="footerLink" href="#slider">Crater</a></li>
+                <li><a class="footerLink" href="#slider">Hippie</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-5 right-footer">
+            <div class="leave-info">
+              <h3>Subcribe To Our Newsletter</h3>
+              <div class="infor">
+                <input type="email" placeholder="your@gmail.com" class="infor-email">
+                <button class="joinButton">Join!</button>
+              </div>
+            </div>
+            <div class="follow-us">
+              <h3>Follow Us!</h3>
+              <div class="imageItems">
+                <a href="https://www.facebook.com/nike"><img class="image" src="./img/facebook.png" alt="facebook image"></a>
+              <a href="https://twitter.com/Nike"><img class="image" src="./img/twitter.png" alt="twitter image"></a>
+              <a href="https://www.instagram.com/nike/"><img class="image" src="./img/instagram.png" alt="instagram image"></a>
+              <a href="https://www.youtube.com/user/nike"><svg class="social-link-icon" width="30px" fill="#111" height="30px" viewBox="0 0 24 24"><path d="M11.28 17.6a.604.604 0 0 1-.2.24.43.43 0 0 1-.24.08c-.08 0-.133-.027-.16-.08a.557.557 0 0 1-.04-.24v-2.96h-.72v3.28a1 1 0 0 0 .12.52c.08.133.2.2.36.2.16 0 .307-.053.44-.16.133-.107.28-.24.44-.4v.48H12v-3.92h-.72v2.96zM6.96 14v-.8H9.6v.8h-.88v4.56h-.88V14h-.88zm4.96-4.72c-.107 0-.2-.04-.28-.12a.384.384 0 0 1-.12-.28v-2.4c0-.053.027-.107.08-.16.053-.053.147-.08.28-.08.133 0 .24.027.32.08a.27.27 0 0 1 .12.24v2.32c0 .107-.04.2-.12.28a.384.384 0 0 1-.28.12zm2 8.32c0-.64.027-1.307.08-2 0-.107-.04-.2-.12-.28-.08-.08-.16-.12-.24-.12h-.12l-.24.16v2.4l.24.16.16.08c.107 0 .173-.027.2-.08.027-.053.04-.16.04-.32zm.08-3.04c.213 0 .387.08.52.24.133.16.2.4.2.72v2.24c0 .267-.053.48-.16.64a.422.422 0 0 1-.44.2 2.1 2.1 0 0 1-.48-.12.506.506 0 0 1-.28-.24v.32h-.8V13.2h.8v1.76c.107-.107.213-.2.32-.28a.532.532 0 0 1 .32-.12zm3.92 5.12c.267-.213.427-.907.48-2.08.053-.587.107-1.147.16-1.68 0-.48-.053-1.013-.16-1.6-.107-1.173-.28-1.893-.52-2.16-.24-.267-1.267-.453-3.08-.56l-2.64-.08-2.72.08c-1.813.107-2.84.293-3.08.56-.24.267-.413.987-.52 2.16a16.07 16.07 0 0 0-.08 1.6c0 .533.027 1.093.08 1.68.107 1.173.28 1.88.52 2.12.24.24 1.267.44 3.08.6l2.72.08 2.64-.08c1.813-.16 2.853-.347 3.12-.56v-.08zM8.4 4h-.96l1.12 3.6v2.24h.96v-2.4L10.64 4h-.96l-.56 2.32h-.08L8.4 4zm2.32 2.56V8.8c0 .373.107.667.32.88.213.213.507.32.88.32s.667-.107.88-.32c.213-.213.32-.507.32-.88V6.56c0-.32-.107-.587-.32-.8-.213-.213-.507-.32-.88-.32s-.667.107-.88.32c-.213.213-.32.48-.32.8zm3.12-.96v3.6a1 1 0 0 0 .12.52c.08.133.213.2.4.2.187 0 .36-.04.52-.12.16-.08.32-.2.48-.36v.48h.88V5.6h-.88v3.2a.523.523 0 0 1-.24.24.645.645 0 0 1-.28.08c-.08 0-.133-.013-.16-.04-.027-.027-.04-.093-.04-.2V5.52h-.8v.08zM12 0c2.187 0 4.2.533 6.04 1.6a11.793 11.793 0 0 1 4.36 4.36C23.467 7.8 24 9.813 24 12s-.533 4.2-1.6 6.04a11.793 11.793 0 0 1-4.36 4.36C16.2 23.467 14.187 24 12 24s-4.2-.533-6.04-1.6a11.793 11.793 0 0 1-4.36-4.36C.533 16.2 0 14.187 0 12s.533-4.2 1.6-6.04A11.793 11.793 0 0 1 5.96 1.6C7.8.533 9.813 0 12 0zm4.56 16.08l-.08-.4c0-.16-.027-.28-.08-.36a.27.27 0 0 0-.24-.12.27.27 0 0 0-.24.12c-.053.08-.08.2-.08.36v.4h.72zm-.32-1.52c.32 0 .573.093.76.28.187.187.28.467.28.84v.96h-1.44v.8c0 .16.027.28.08.36.053.08.147.12.28.12.133 0 .227-.04.28-.12.053-.08.08-.227.08-.44v-.16h.72v.24c0 .373-.093.667-.28.88-.187.213-.453.32-.8.32-.347 0-.613-.107-.8-.32-.187-.213-.28-.507-.28-.88v-1.76c0-.32.107-.587.32-.8.213-.213.48-.32.8-.32z"></path></svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
